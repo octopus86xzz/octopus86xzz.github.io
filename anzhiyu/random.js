@@ -1,3 +1,3 @@
-var posts=["2024/02/02/自我介绍/","2024/02/03/测试/"];function toRandomPost(){
+var posts=["2024/02/02/自我介绍/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
